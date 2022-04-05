@@ -1,14 +1,23 @@
-div{
+body{
+    background-color: navajowhite;
+}
+
+.padre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 920px;
+}
+.hijo{
     background-color: chartreuse;
     height: 300px;
     width: 300px;
-    margin: 25%;
     outline: powderblue dashed 5px;
 }
 
-div:hover{
+.hijo:hover{
     outline-offset: 40px;
-    transform: rotate(132121deg) scale(3);
+    transform: rotate(132121deg) scale(4);
     transition: transform 100s;
     animation: anim 5s ease-in infinite;
 }
