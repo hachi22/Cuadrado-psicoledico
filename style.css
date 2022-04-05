@@ -1,0 +1,27 @@
+div{
+    background-color: chartreuse;
+    height: 300px;
+    width: 300px;
+    margin: 25%;
+    outline: powderblue dashed 5px;
+}
+
+div:hover{
+    outline-offset: 40px;
+    transform: rotate(132121deg) scale(3);
+    transition: transform 100s;
+    animation: anim 5s ease-in infinite;
+}
+
+@keyframes anim{
+    0% {outline-color: rgb(30, 255, 0);}
+   25% {outline-color: #f80;}
+   50% {outline-color: rgb(24, 58, 207);}
+   75% {outline-color: rgb(233, 17, 17);}
+  100% {outline-color: rgb(30, 255, 0);}
+  0% {background-color: rgb(30, 255, 0);}
+  25% {background-color: #f80;}
+  50% {background-color: rgb(24, 58, 207);}
+  75% {background-color: rgb(233, 17, 17);}
+ 100% {background-color: rgb(30, 255, 0);}
+}
