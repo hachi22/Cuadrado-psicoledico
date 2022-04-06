@@ -6,7 +6,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 920px;
+  height: 100vh;
 }
 .hijo{
     background-color: chartreuse;
